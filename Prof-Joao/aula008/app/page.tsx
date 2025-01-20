@@ -1,19 +1,25 @@
 import Image from "next/image";
+import HomeIntro from "./components/HomeIntro";
+import HomeServices from "./components/HomeServices";
+import HomeContato from "./components/HomeContato";
+
 
 export default function Home() {
+  {/*
+  const estilos = {
+    display: "flex",
+    justifyContent: "space-between",
+    backgroundColor: "red",
+    color: "white"
+  }
+
+  estilos.color = "black";*/}
+
   return (
     <>
-      <section className="home-wrapper">
-        <h1 className="mb-3">Bem vindo a nossa empresa</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae modi non aspernatur odit aut ullam rerum, earum ex, veniam accusamus inventore tempora officia libero enim nulla error deserunt, illum quidem!</p>
-      </section>
-
-      <section className="home-services">
-        <h1 className="text-center mb-5">Conheça os nossos serviços</h1>
-        <div className="text-center">
-          <a href="#" className="services-button" target="_blank" rel="noopener noreferrer">Serviços</a>
-        </div>
-      </section>
+      <HomeIntro />
+      <HomeServices />
+      <HomeContato />
     </>
   );
 }

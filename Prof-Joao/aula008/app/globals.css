@@ -58,3 +58,23 @@
 .services-button:hover {
   background-color: rgb(33, 62, 52);
 }
+
+.contato-button {
+  text-decoration: none;
+  padding: 10px 50px;
+  text-align: center;
+  background-color: rgb(65, 9, 112);
+  color: white;
+  border: 1px solid rgb(255, 0, 238);
+  border-radius: 10px;
+}
+
+.contato-button:hover {
+  background-color: rgb(200, 0, 255);
+}
+
+.home-contato {
+  background-color: rgb(13, 132, 76);
+  color: black;
+  padding: 50px;
+}
